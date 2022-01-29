@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+html {
+  background-image: linear-gradient(rgb(117, 117, 245), rgb(77, 77, 230));
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 3em;
+  text-shadow: 2px 2px white;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+.cont {
+  display: flex;
+  max-width: 100em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 1em;
+  border: 2px solid blue;
+  width: 16em;
+  min-height: 10em;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.name {
+  font-size: 1.2em;
+  font-family: "Secular One", sans-serif;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.classX{
+  display: flex;
+  align-items: center;
+  margin: 0 2em
+}
+
+.classX h3 {
+  margin-right: 1em;
+}
+
+select {
+  text-align: center;
+}
+
+/* Types */
+.Grass {
+  background-color: green;
+  background-image: linear-gradient(315deg, rgb(12, 141, 12) 0%, #5aff15 74%);
+}
+
+.Fire {
+  background-image: linear-gradient(
+    to top right,
+    yellow,
+    orange,
+    orangered,
+    red
+  );
+}
+
+.Water {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.Bug {
+  color: beige;
+  background-image: linear-gradient(315deg, #aa5e1c 0%, #1b1a1a 74%);
+}
+
+.Poison {
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  color: beige;
+}
+
+.Electric {
+  background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+}
+
+.Rock {
+  color: beige;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.Fairy {
+  background-image: linear-gradient(
+    to top right,
+    rgb(204, 18, 204),
+    magenta,
+    pink,
+    rgb(255, 232, 235)
+  );
+}
+
+.Normal {
+  background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
+}
+.Psychic {
+  background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+}
+
+.Ground {
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+
+.Fighting {
+  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+}
+
+.Ice {
+  background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
+}
+
+.Dragon {
+  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+}
+
+.Steel {
+  background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+}
+
+.Dark {
+  color: white;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.Ghost {
+  background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+}
+
+.Flying {
+  background-image: linear-gradient(315deg, #f6a000 0%, #f6f45d 74%);
+}
