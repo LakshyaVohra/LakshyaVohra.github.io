@@ -12,7 +12,7 @@ function shouldBeDisplayed(element, index) {
   const megaVal = mega.value;
 
   // Special case: Mega is true, so we check for name from index 5
-  const indexToBeChecked = megaVal === "Yes" ? 5 : 0;
+  const indexToBeChecked = megaVal === "Yes" || names[index].innerText.slice(0, 5) === "Mega " ? 5 : 0;
 
   if (
     (legVal === "Yes" && !element.classList.contains("legendary")) ||
@@ -39,13 +39,7 @@ function shouldBeDisplayed(element, index) {
 }
 
 function updateDOM() {
-  cards.forEach((element, index) => {
-    if (shouldBeDisplayed(element, index)) {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
-  });
+  cards.forEach((element, index) => element.style.display = shouldBeDisplayed(element, index) ? "block" : "none");
 }
 
 [typeEl, nameEl, leg, mega].forEach((select) =>
